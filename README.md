@@ -1,7 +1,5 @@
 # Sistema-bancario-API-REST-Nodejs
 
-# Sistema-bancario-API-REST-Nodejs
-
 Claro, vou converter o texto fornecido em um formato adequado para um arquivo README.md:
 
 
