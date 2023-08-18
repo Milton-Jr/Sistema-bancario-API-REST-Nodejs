@@ -1,7 +1,5 @@
 # Cubos Bank API
 
-## Desafio | Back-end - Módulo 2
-
 Bem-vindo ao repositório da API REST Cubos Bank! Este projeto foi desenvolvido como parte do meu aprendizado nos estudos de back-end.
 
 Essa API permite gerenciar contas bancárias, realizar transações, consultar saldos e extratos. Ela segue o padrão REST e é construída com o framework Express, utilizando a biblioteca Date-fns para lidar com datas.
