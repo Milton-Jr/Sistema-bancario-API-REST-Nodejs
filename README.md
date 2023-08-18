@@ -124,6 +124,115 @@ HTTP Status 200
     }
 }
 ```
+
+# Saque de uma conta bancária
+```bash
+POST /transacoes/sacar
+```
+Esta rota permite fazer um saque de uma conta bancária.
+
+Corpo da requisição:
+
+```json
+{
+    "numero_conta": "1",
+    "valor": 100
+}
+```
+Exemplo de resposta:
+
+```json
+HTTP Status 200
+
+{
+    "mensagem": "Saque realizado com sucesso."
+}
+```
+# Transferência entre contas bancárias
+```bash
+POST /transacoes/transferir
+```
+Esta rota permite transferir valores entre duas contas bancárias.
+
+Corpo da requisição:
+
+```json
+{
+    "conta_origem": "1",
+    "conta_destino": "2",
+    "valor": 200
+}
+```
+Exemplo de resposta:
+
+```json
+HTTP Status 200
+
+{
+    "mensagem": "Transferência realizada com sucesso."
+}
+```
+# Depósito em uma conta bancária
+```bash
+
+POST /transacoes/depositar
+```
+Esta rota permite realizar um depósito em uma conta bancária.
+
+Corpo da requisição:
+
+```json
+
+{
+    "numero_conta": "1",
+    "valor": 50
+}
+```
+Exemplo de resposta:
+
+```json
+
+HTTP Status 200
+
+{
+    "mensagem": "Depósito realizado com sucesso."
+}
+```
+# Emissão de extrato bancário
+```bash
+GET /contas/extrato?numero_conta=<numero_conta>&senha=<senha_conta>
+```
+Esta rota retorna o extrato bancário de uma determinada conta.
+
+Parâmetros:
+
+numero_conta: Número da conta bancária.
+senha_conta: Senha da conta informada.
+
+Exemplo de resposta:
+
+```json
+
+HTTP Status 200
+
+[
+    {
+        "data": "2023-08-15 12:30:00",
+        "descricao": "Depósito",
+        "valor": 300
+    },
+    {
+        "data": "2023-08-16 14:45:00",
+        "descricao": "Saque",
+        "valor": 50
+    },
+    {
+        "data": "2023-08-17 10:00:00",
+        "descricao": "Transferência para conta 2",
+        "valor": 200
+    }
+]
+```
 # Status Code
 - 200 (OK): Requisição bem sucedida
 - 201 (Created): Requisição bem sucedida e algo foi criado
