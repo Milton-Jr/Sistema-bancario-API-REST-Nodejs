@@ -1,8 +1,5 @@
 # Sistema-bancario-API-REST-Nodejs
 
-Claro, vou converter o texto fornecido em um formato adequado para um arquivo README.md:
-
-
 # Cubos Bank API
 
 Bem-vindo ao repositório da API REST Cubos Bank! Este projeto foi desenvolvido como parte do meu aprendizado nos estudos de back-end.
