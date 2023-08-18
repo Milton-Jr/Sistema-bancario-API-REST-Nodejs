@@ -107,10 +107,6 @@ HTTP Status 200
 }
 ```
 
-## Documentação Completa
-
-Para mais detalhes sobre todos os endpoints e suas funcionalidades, consulte a [documentação completa aqui](link_para_documentação_completa).
-
 ## Status Code
 
 - 200 (OK): Requisição bem sucedida
@@ -124,9 +120,7 @@ Para mais detalhes sobre todos os endpoints e suas funcionalidades, consulte a [
 
 ## Considerações Finais
 
-Este projeto foi desenvolvido como parte do desafio do Back-end - Módulo 2 na Cubos. Sua estrutura segue as melhores práticas de desenvolvimento, mantendo uma organização clara e modularizada do código. Se você tiver alguma dúvida ou feedback, sinta-se à vontade para entrar em contato.
+Este projeto foi desenvolvido como parte dos meus estudos em back-end. Sua estrutura segue as melhores práticas de desenvolvimento, mantendo uma organização clara e modularizada do código. Se você tiver alguma dúvida ou feedback, sinta-se à vontade para entrar em contato.
 
-Agradecemos por visitar nosso repositório e esperamos que esta API seja útil para suas necessidades bancárias!
+Agradeço por visitar meu repositório!
 ```
-
-Lembre-se de substituir `link_para_documentação_completa` pelo link real para a documentação completa da API, caso você tenha uma. Certifique-se também de formatar corretamente as seções de código e citações.
